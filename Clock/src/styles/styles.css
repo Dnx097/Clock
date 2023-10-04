@@ -1,0 +1,73 @@
+:root {
+    --bg-color-night: #313131;
+    --bg-color-ligth: #fcfcfc;
+    --neon-font-shadow: #c718f3;
+    /* --neon-font-shadow: #8c26a5; */
+
+}
+
+body {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+}
+
+.root_content {
+    margin-top: 2rem;
+    width: 80vw;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.contetn_hour {
+    color: var(--bg-color-ligth);
+    text-shadow: 0px 0px 50px var(--neon-font-shadow),
+        0px 10px 50px var(--neon-font-shadow),
+        0px 15px 50px var(--neon-font-shadow),
+        0px 0px 50px var(--neon-font-shadow);
+    text-align: center;
+
+}
+
+.contetn_hour.day {
+    color: var(--bg-color-night);
+    text-align: center;
+
+}
+
+
+.content_date {
+    color: var(--bg-color-ligth);
+    text-shadow: 0px 0px 50px var(--neon-font-shadow),
+        0px 10px 50px var(--neon-font-shadow),
+        0px 10px 50px var(--neon-font-shadow);
+    text-align: center;
+}
+
+.content_date.day {
+    color: var(--bg-color-night);
+    text-align: center;
+}
+
+
+
+@media (min-width: 768px) {
+    .root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}

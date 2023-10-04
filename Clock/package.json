@@ -1,0 +1,15 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "Este es un pequeño proyecto de un reloj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reloj",
+    "vanillajs"
+  ],
+  "author": "Daniel Ballesteros",
+  "license": "ISC"
+}
